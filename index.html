@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Countdown UI</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <div class="phone">
+    <div class="top-bar">
+      <div class="logo">
+        <img src="https://cdn-icons-png.flaticon.com/512/1827/1827504.png" alt="Logo">
+        <span>SMIT</span>
+      </div>
+     
+    </div>
+
+    <div class="title">COUNTDOWN</div>
+
+    <div class="timer-circle">
+      <div class="timer-text">
+        <h1 id="display">00:00:00</h1>
+        <span>HOURS  MINUTES  SECONDS</span>
+      </div>
+    </div>
+
+    <div class="bottom-icons">
+      <img id="start" onclick="startTimer()" src="./pause-button-png-31.png" width="40px" height="40px" alt="">
+      <img id="stop" onclick="stopTimer()" src="./images.png" width="40px" height="40px"  class="stop" alt="">
+      <img id="reset" onclick="resetTimer()" src="./reset-25.png" width="40px" height="40px" alt="">
+      <img id="lap" onclick="addLap()" src="./timelapse-jex4o8kneebnfh7vn1ifc.webp" width="40px" height="40px" alt="">
+     
+    </div>
+  </div>
+
+</body>
+<script src="./app.js"></script>
+</html>
